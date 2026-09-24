@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "For Anusha — Twenty"
+description = "A personal, black-and-cream editorial birthday tribute for Anusha Gupta's twentieth birthday, with seven chapters, envelope-style photo placeholders, gentle scroll motion, and tap-to-reveal notes."
+version = "1.0.0"
+id = "artifacts/anusha-tribute"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25854
+
+[services.development]
+run = "pnpm --filter @workspace/anusha-tribute run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/anusha-tribute", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/anusha-tribute/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25854"
+BASE_PATH = "/"

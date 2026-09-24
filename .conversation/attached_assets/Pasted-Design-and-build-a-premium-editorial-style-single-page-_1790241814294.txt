@@ -1,0 +1,26 @@
+Design and build a premium, editorial-style single-page website as a birthday tribute for Anusha Gupta, turning 20. This is a deeply personal gift — it must feel like a beautifully art-directed keepsake or a high-end magazine spread, never like a generic "made with AI" template.
+Visual direction
+Strict black-and-white palette only (true black, off-white/cream background, greyscale photos — no color accents)
+Editorial/magazine aesthetic: generous whitespace, refined serif typography for headlines (think Vogue/print-magazine mastheads), a clean sans-serif for body text
+Elegant, restrained layout — asymmetric grids, pull-quote style emphasis on key lines, thin hairline dividers between sections
+Photos treated as fine art: full-bleed or framed with thin borders, greyscale/high-contrast filter if source images are in color
+No stock "gradient card" or "glassmorphism" UI clichés — should feel handcrafted, print-inspired, intentional
+Structure — 7 chapters, navigated as distinct sections (click/scroll through, not one long dump)
+Prologue — title card: "For Anusha, on turning 20" over one striking photo
+Who You Are — a written portrait of her character and qualities
+Our Story — photo collage across the years, minimal captions
+What I've Never Said — click-to-reveal chapter: short, tender lines that unlock on tap (the emotional peak of intimacy)
+Twenty — reflection on this milestone and hopes for her next decade
+A Letter — one full, unhurried closing letter, the emotional centerpiece
+Always — soft closing page, one final photo, one closing line
+Interactivity
+Mostly a calm scroll experience
+2–3 click-to-reveal moments in the "What I've Never Said" chapter — tap/click a card or line to unlock the next
+Subtle scroll-based fade-ins, nothing flashy or distracting
+Technical
+Fully responsive (mobile-first — will likely be opened on a phone)
+Self-contained, fast-loading, no unnecessary dependencies
+Photo placeholders with elegant framing if real images aren't available yet, easily swappable
+Tone of writing
+Warm, sincere, specific-feeling even where content is general — avoid greeting-card clichés ("you light up every room")
+Should read like it was written by someone who thought carefully about every sentence, not generated in bulk
